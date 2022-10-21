@@ -15,6 +15,10 @@ mongoose.connect("mongodb+srv://andras:Eaeaea123@cluster0.zfr0d.mongodb.net/todo
   useUnifiedTopology: true
 });
 
+
+//date//
+let todaysDate = new Date().toISOString().slice(0, 10)
+
 //schema to use !!plural!!//
 const itemsSchema = {
   name: String,
@@ -61,7 +65,7 @@ app.get("/", function (req, res) {
     } else {
       //newListItems EJS in index used for foundItems array with forEach
       //note!! the post route items also being saved in finditems as we still in the same
-      res.render("list", { listTitle: "Today", newListItems: foundItems });
+      res.render("list", { listTitle: "Today", date: todaysDate, newListItems: foundItems });
     };
   });
 });
@@ -126,7 +130,7 @@ app.get("/:customListName", function (req, res) {
         res.redirect("/" + customListName);
       } else {
         // console.log("Existing list!"); Rendering existing list //
-        res.render("list", { listTitle: foundList.name, newListItems: foundList.items })
+        res.render("list", { listTitle: foundList.name, date: todaysDate, newListItems: foundList.items })
       }
     }
   });
