@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const favicon = require('serve-favicon')
 var _ = require("lodash");
 
 const app = express();
@@ -10,11 +11,13 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
+app.use(express.static(__dirname + '/public'));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+
 mongoose.connect("mongodb+srv://andras:" + process.env.MONGOOSE_PASS + "@cluster0.zfr0d.mongodb.net/todolistDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
-
 
 //date//
 let todaysDate = new Date().toISOString().slice(0, 10)
