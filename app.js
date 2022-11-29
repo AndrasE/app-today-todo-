@@ -68,7 +68,7 @@ app.get("/", function (req, res) {
     } else {
       //newListItems EJS in index used for foundItems array with forEach
       //note!! the post route items also being saved in finditems as we still in the same
-      res.render("list", { listTitle: "Today", date: todaysDate, newListItems: foundItems });
+      res.render("list", { listTitle: "to - do", date: todaysDate, newListItems: foundItems });
     };
   });
 });
