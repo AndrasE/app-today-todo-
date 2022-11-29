@@ -1,6 +1,6 @@
 body {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #e1b9b2 50%, #efcfaf 50%);
+  background-image: -webkit-radial-gradient(#e1b9b2, #efcfaf);
   font-family: 'helvetica neue';
 }
 
@@ -117,7 +117,7 @@ footer {
 }
 
 a {
-  color: rgb(109, 106, 106);
+  color: rgb(42, 41, 41);
 }
 
 footer {
