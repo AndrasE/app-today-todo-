@@ -10,7 +10,6 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(__dirname + '/public'));
 app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 mongoose.connect("mongodb+srv://andras:" + process.env.MONGOOSE_PASS + "@cluster0.zfr0d.mongodb.net/todolistDB", {
