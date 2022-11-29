@@ -1,5 +1,6 @@
 body {
-  background-color: #ffeead8f;
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #e1b9b2 50%, #efcfaf 50%);
   font-family: 'helvetica neue';
 }
 
