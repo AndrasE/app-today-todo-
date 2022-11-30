@@ -2,8 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 var _ = require("lodash");
-var favicon = require('serve-favicon');
-
+const favicon = require('serve-favicon')
+const path = require('path')
 
 const app = express();
 
@@ -18,7 +18,7 @@ mongoose.connect("mongodb+srv://andras:" + process.env.MONGOOSE_PASS + "@cluster
 });
 
 app.use(express.static(__dirname + '/public'));
-app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 
 //date//
 let todaysDate = new Date().toISOString().slice(0, 10)
