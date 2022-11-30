@@ -1,6 +1,6 @@
 <br>
 <p align="center">
-  <a href="https://andras-blog.cyclic.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://andras-todo.cyclic.app/" target="_blank" rel="noopener noreferrer">
   <img src="https://github.com/AndrasE/raw-readme/blob/main/todo-readme-img.png?raw=true">
   </a>
 </p>
