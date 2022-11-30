@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 var _ = require("lodash");
+var favicon = require('serve-favicon');
 
 const app = express();
 
@@ -14,6 +15,10 @@ mongoose.connect("mongodb+srv://andras:" + process.env.MONGOOSE_PASS + "@cluster
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
+
+app.use(express.static("public"));
+
+app.use(favicon(__dirname + '/public/favicon.ico'));
 
 
 //date//
