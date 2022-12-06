@@ -12,7 +12,7 @@
 
 ## Hi there 👋
 
-This app was also part of my self-study on Udemy. Using EJS with MongoDb the user could interact with the App and send their own post to a database, which gets displayed to them. Altough it is a simple App, I think it could be a good start for beginner trying to build similar applications. 
+This app was also part of my self-study on <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp" target="_blank" rel="noopener noreferrer">Udemy</a>. Using EJS with MongoDb the user could interact with the App and send their own post to a database, which gets displayed to them. Altough it is a simple App, I think it could be a good start for beginner trying to build similar applications. 
 
 Take care, code safe! 💻
 
