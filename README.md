@@ -18,7 +18,7 @@ Take care, code safe! 💻
 
 ps: App is deployed both on heroke eco-tier (no more free 😥) and cyclic. If you would like to compare the speed of the two feel free to do so. My findings is that heroku servers needs longer time to spin up, but once is up it feels more responsive. But I haven`t yet reach conclusions.. <br>
 <p align="center">
-<a href="https://andras-todo.cyclic.app/" target="_blank" rel="noopener noreferrer"> Cyclic </a>   vs   <a href="https://andras-todo.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Heroku </a>
+<a href="https://andras-todo.cyclic.app/" target="_blank" rel="noopener noreferrer">Cyclic</a>   🆚   <a href="https://andras-todo.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku</a>
 </p>
 
 ## Run 🚀
