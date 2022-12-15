@@ -12,11 +12,11 @@
 
 ## Hi there 👋
 
-This app was also part of my self-study on <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp" target="_blank" rel="noopener noreferrer">Udemy</a>. Using EJS with MongoDb the user could interact with the App and send their own post to a database, which gets displayed to them. Altough it is a simple App, I think it could be a good start for beginner trying to build similar applications. 
+This app was also part of my self-study on <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp" target="_blank" rel="noopener noreferrer">Udemy</a>. Using EJS with MongoDb the user could interact with the App and send their own post to a database, which gets displayed to them. Although it is a simple App, I think it could be a good start for beginner trying to build similar applications. 
 
 Take care, code safe! 💻
 
-ps: App is deployed both on heroke eco-tier (no more free 😥) and cyclic. If you would like to compare the speed of the two feel free to do so. My findings is that heroku servers needs longer time to spin up, but once is up it feels more responsive. But I haven`t yet reach conclusions.. <br>
+ps: App is deployed both on heroku eco-tier (no more free 😥) and cyclic. If you would like to compare the speed of the two feel free to do so. My findings is that heroku servers needs longer time to spin up, but once is up it feels more responsive. But I haven`t yet reach conclusions.. <br>
 <p align="center">
 <a href="https://andras-todo.cyclic.app/" target="_blank" rel="noopener noreferrer">Cyclic</a>   🆚   <a href="https://andras-todo.herokuapp.com/" target="_blank" rel="noopener noreferrer">Heroku</a>
 </p>
