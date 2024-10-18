@@ -8,7 +8,7 @@
 
 ## Hi there 👋
 
-This app was another self-study project from a **[Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp)** course, where I used **[EJS](https://ejs.co/)** with **[MongoDB](https://www.mongodb.com/)**. Users can interact with the app by submitting their own posts, which are stored in a database and displayed back to them. While it's a simple application, I believe it serves as a solid starting point for beginners looking to build similar projects.
+This app was another self-study project from a **[Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp)** course, where I used **[EJS](https://ejs.co/)** with **[MongoDB](https://www.mongodb.com/)**. Users can interact with the app by submitting their own to-do`s, which are stored in a database and displayed back to them. While it's a simple application, I believe it serves as a solid starting point for beginners looking to build similar projects.
 
 Deployed on Heroku's eco-dyno, please note that it may take a few seconds for the server to wake up.
 
