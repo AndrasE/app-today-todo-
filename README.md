@@ -1,6 +1,6 @@
 <h3 align="center">
   <a href="https://andras-todo.cyclic.app/" target="_blank" rel="noopener noreferrer">
-  <img src="https://github.com/AndrasE/raw-readme/blob/main/todo-readme-img.png?raw=true" width="105px">
+  <img src="https://github.com/AndrasE/raw-readme/blob/e0ba0d38fc6f2bb201983bbc4986e59f1ae946f2/logo/todo-readme-img.png" width="105px">
   </a>
   <br/>
  To-do app using Ejs, Express & MongoDb
