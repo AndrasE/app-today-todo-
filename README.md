@@ -13,6 +13,7 @@ This app was another self-study project from a **[Udemy](https://www.udemy.com/c
 Deployed on Heroku's eco-dyno, please note that it may take a few seconds for the server to wake up.
 
 ## Run 🚀
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 Start with cloning this repo on your local machine via cli or github-desktop:
@@ -28,13 +29,11 @@ To install and set up the library, run:
 $ npm install -S myLib
 `
 
-
 Or if you prefer using Yarn:
 
 `
 $ yarn add --dev myLib
 `
-
 
 Add your own credentials:
 
@@ -47,4 +46,3 @@ Serving the app:
 `
 $ npm start
 `
-
