@@ -4,7 +4,11 @@
   </a>
   <br/>
  To-do app using Ejs, Express & MongoDb
-</h3>
+</h3>1
+
+<div align="center">
+<img src="https://github.com/AndrasE/raw-readme/blob/9c4de24486543db9f7378b223611919b183e59a7/thumbs/to-do.png" width="420">
+</div>
 
 ## Hi there 👋
 
