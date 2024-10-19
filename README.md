@@ -4,7 +4,7 @@
   </a>
   <br/>
  To-do app using Ejs, Express & MongoDb
-</h3>1
+</h3>
 
 ## Hi there 👋
 
